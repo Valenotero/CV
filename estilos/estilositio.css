@@ -1,27 +1,67 @@
 h1{
-    color: rgb(34, 22, 22);
-    height: 32px;
-    background-color: rgb(96, 252, 30);
+    color: rgb(0, 0, 0);
+    height: 34px;
+    text-align: center;
+    font-size: 2,5rem;
 }
 .Enlace{
-    
-    margin-left: 50px;
+    margin-left: auto;
+    text-decoration:none;
+    font-size: medium;
+
 }
 body{
-    background-color: rgb(255, 255, 255);
+background-color: #5b56fa92;
+font-family: 'Roboto', sans-serif;
+font-size: medium;
 }
-img{
-    border-radius: 32px;
-}
-.textoazul{
-    color: blue;
-    font-size: larger;
-}
-.textorojo{
-    color: red;
-    font-size: large;
-}
-legend{border: solid 1px;
-    border-radius: 25px;
 
+img{
+    border-radius: 15px;
+}
+
+legend{border: solid 2px;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+} 
+
+.Links{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+font-size: 30px;
+font-family: 'Instrument Serif', serif;
+font-weight: 100%;
+}
+.Button{ 
+    background-color: rgb(8, 226, 0);
+    width: 8rem;
+    height: 2,5rem;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+nav{
+    background-color:  rgb(20, 120, 17);   
+    height: 3rem;
+}
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+li{
+    list-style: none;
+}
+header{
+    background-color: rgb(20, 120, 17);
+    height: 8rem;
+}
+main{
+    padding bottom: 17px;
 }
